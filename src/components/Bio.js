@@ -4,7 +4,6 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
@@ -16,7 +15,7 @@ class Bio extends React.Component {
         }}
       >
         <img
-          src={profilePic}
+          src="https://s.gravatar.com/avatar/f7f1b87e8299f81d857f3ac824a8ccaf?s=80"
           alt={`Kyle Mathews`}
           style={{
             float: 'left',
@@ -26,10 +25,9 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        Written by <strong>Kyle Mathews</strong> who lives and works in San
-        Francisco building useful things.{' '}
-        <a href="https://twitter.com/kylemathews">
-          You should follow him on Twitter
+        Propagiert von <strong>Tillmann Hübner</strong> der in Erfurt lebt und arbeitet.{' '}
+        <a href="https://twitter.com/ruohki">
+          Es existiert ein Twitter Account
         </a>
       </p>
     )
